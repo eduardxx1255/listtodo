@@ -8,8 +8,9 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <Route exact path="/" component={Header} />
-      <Route exact path="/components/input" component={Input} />
+      <Header />
+      <Route exact path="/Input" component={Input} />
+      <Route exact path="/animation" containers={Animation} />
     </Router>
   );
 }

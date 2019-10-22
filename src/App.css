@@ -12,3 +12,9 @@ header {
   color: white;
   margin: 10px;
 }
+
+.uno {
+  min-height: 100vh;
+  width: 50px;
+  background-color: red;
+}
