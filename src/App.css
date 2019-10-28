@@ -60,3 +60,11 @@ header {
   display: flex;
   justify-content: center;
 }
+.nuevo {
+  display: flex;
+  justify-content: center;
+}
+.entrada {
+  border-radius: 10px;
+  background-color: rgb(215, 248, 237);
+}
