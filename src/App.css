@@ -1,4 +1,5 @@
 
+
 header {
   background-color: #282c34;
   min-width: 100vh;
@@ -13,8 +14,49 @@ header {
   margin: 10px;
 }
 
-.uno {
-  min-height: 100vh;
-  width: 50px;
-  background-color: red;
+.busqueda{
+  text-align: center;
+}
+
+.entrada{
+  min-width: 100vh;
+  height: 30px;
+  margin: 15px;
+}
+
+.boton{
+  height: 30px;
+  width: 100px;
+  background: seagreen;
+  border-radius: 8px;
+  border: none;
+  margin: 15px;
+}
+
+.pendiente {
+  background: #bdf8ab;
+  border-radius: 15px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 70%;
+  margin: 10px;
+}
+
+.chulo {
+  margin: 0 20px;
+}
+
+.borrar {
+  height: 30px;
+  width: 100px;
+  background: rgb(160, 60, 190);
+  border-radius: 8px;
+  border: none;
+  margin: 15px;
+}
+
+.pendientes {
+  display: flex;
+  justify-content: center;
 }

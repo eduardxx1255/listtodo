@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from './components/header'
-import Input from './components/input'
+import Header from './components/header';
+import Input from './components/input';
+import Pendiente from './components/pendiente';
+import New from './components/new';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
@@ -9,9 +11,11 @@ function App() {
   return (
     <Router>
       <Header />
-      <Route exact path="/Input" component={Input} />
-      <Route exact path="/animation" containers={Animation} />
+      <New />
+      <Route exact path="/input" component={Input} />
+      <Route exact path="/pendiente" component={Pendiente} />
     </Router>
+
   );
 }
 

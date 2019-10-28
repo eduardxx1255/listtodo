@@ -2,17 +2,15 @@ import React from "react";
 
 
 class Input extends React.Component {
-        render () {
-            return (
-            <div>
-                <p>Hola</p>
-                <input type="submit" value="Submit">Ingresa tu busqueda</input>
+    render() {
+        return (
+            <div className="busqueda">
+                <input className="entrada" type="submint"></input>
+                <button type="button" className="boton">Buscar</button>
             </div>
-            )
-        }
+        )
     }
-
-
+}
 
 
 export default Input;
