@@ -12,6 +12,7 @@ function App() {
     <Router>
       <Header />
       <New />
+      {/* para hacer calis */}
       <Route exact path="/input" component={Input} />
       <Route exact path="/pendiente" component={Pendiente} />
     </Router>
